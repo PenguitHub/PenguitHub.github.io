@@ -70,7 +70,20 @@
 
 <!--ここの部分が折りたたまれる＆展開される部分になります。
 自由に記述してください。-->
-<p>test</p>
+  <div onclick="obj=document.getElementById('open2').style; obj.display=(obj.display=='none')?'block':'none';">
+  <a style="cursor:pointer;">▼あー </a>
+  </div>
+  <!--// 折り畳み展開ポインタ -->
+
+  <!-- 折り畳まれ部分 -->
+  <div id="open2" style="display:none;clear:both;">
+
+  <!--ここの部分が折りたたまれる＆展開される部分になります。
+  自由に記述してください。-->
+  <p>test</p>
+
+  </div>
+  <!--// 折り畳まれ部分 -->
 
 </div>
 <!--// 折り畳まれ部分 -->
