@@ -26,11 +26,25 @@
         <a style="cursor:pointer;text-indent:2em;">▼あー </a>
       </div><!--// 折り畳み展開ポインタ -->
 
-      <div id="open2" style="display:none;clear:both;text-indent:2em;">
-
+      <div id="open2" style="display:none;clear:both;">
         <!--ここの部分が折りたたまれる＆展開される部分になります。
         自由に記述してください。-->
-        <p>test</p>
+        <div onclick="obj=document.getElementById('open3').style; obj.display=(obj.display=='none')?'block':'none';">
+          <a style="cursor:pointer;text-indent:2em;">▼あ~ </a>
+        </div><!--// 折り畳み展開ポインタ -->
+
+        <div id="open3" style="display:none;clear:both;">
+          <!--ここの部分が折りたたまれる＆展開される部分になります。
+          自由に記述してください。-->
+          あ～！1
+          あ～？1
+          あ～？2
+          あ～？3
+          あ～？4
+          あ～？5
+          あ～？6
+          あ～？7
+        </div><!--// 折り畳まれ部分 -->
 
       </div><!--// 折り畳まれ部分 -->
 
