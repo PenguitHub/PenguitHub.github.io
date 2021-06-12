@@ -45,9 +45,15 @@
 
          -->
         <script>
-            var connection = new WebSocket('wss://penguithub.github.io/index.html');
- 
+
+            var connection = new WebSocket('wss://echo.websocket.org');
+
             connection.send('サンプルデータ');
+            connection.onmessage = function(e) {
+ 
+                console.log(e.data);
+
+            };
 
         </script>
     </body>
